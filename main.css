@@ -1,0 +1,160 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #0E0E56; */
+    background-image: linear-gradient(to top, #17468c, #3d147e,  #0E0E56);
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.navbar-items li a{
+    color: #3c137b;
+    font-weight: bolder;
+}
+
+.callaction-banner{
+    background-color: #ff238c;
+    padding: 25px 0px;
+    color: #fff;
+}
+
+.callaction-banner-button{
+    background-color: #0b0d3b;
+    padding: 5px 0;
+    border: 1px solid #0b0d3b;
+    border-radius: 20px;
+
+}
+
+.callaction-banner-button a{
+    color: #00f9ff;
+    text-align: center;
+}
+
+.section-white-color{
+    background-color: #fff;
+}
+
+#content{
+    overflow:hidden; 
+    margin-top: 220px;
+}
+
+.horizontal-line hr{
+    height: 5px;
+}
+
+#list-items{
+    color: #19458d;
+}
+#list-items ul li{
+    padding: 5px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.callaction-button a{
+    background-color: #fff;
+    padding: 20px;
+    font-weight: 700;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    font-size: 70%;
+}
+
+.images-about-oficines div img{
+    border: 10px solid #fff;
+    border-radius: 10px;
+}
+
+#counter-down{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.floating-image-1, .floating-image-2, 
+.floating-image-3, .floating-image-4,
+.floating-image-5, .floating-image-6,
+.floating-image-7{
+    z-index: -1;
+    z-index: -1;
+    z-index: -1;
+}
+
+.floating-image-1{
+    left: -150px; 
+    top: 100px;
+    opacity: 0.9;
+}
+.floating-image-2{
+    right: -50px;
+    bottom: -100px;
+    opacity: 0.6;
+}
+
+.floating-image-3{
+    right: -100px;
+    bottom: -10px;
+    opacity: 0.4;
+}
+
+.floating-image-4{
+    left: 200px;
+    bottom: -10px;
+    opacity: 0.8;
+}
+
+.floating-image-5{
+    right: -150px;
+    top: 100px;
+    bottom: 0;
+    opacity: 0.8;
+}
+
+.floating-image-6{
+    left: -20px;
+    top: -20px;
+}
+
+.floating-image-7{
+    right: -50px;
+    top: 0;
+    opacity: 0.7;
+}
+
+
+#footer{
+    color: #19458d;
+    font-size: 1.2rem;
+}
+
+#footer ul li a{
+    color: #19458d;
+}
+
+.footer-copy-text{
+    color: #19458d;
+    font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 767px) {
+    .contact-idisc-vl{
+        border-left: 2px solid #19458d;
+        padding-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .callaction-button a{
+        font-size: 60%;
+    }
+}
