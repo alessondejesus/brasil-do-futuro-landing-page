@@ -19,5 +19,4 @@ setInterval(function () {
     if(localStorage.count > 1){
         localStorage.count = Number(localStorage.count) - 1
     }
-    console.log(Number(localStorage.count))
 }, 20000);
